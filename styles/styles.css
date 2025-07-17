@@ -19,8 +19,20 @@
   border-radius: 5px;
   color: white;
 }
-.btn:active{
+.contact-btn {
+  border:2px solid black;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 35px 18px 35px;
+  border-radius: 5px;
+  color: black;
+}
+.contact-btn:active{
   color:#6bfd0ac5;
+}
+.btn:active{
+   color:black;
 }
 .dark2 {
   color:#474747;
