@@ -19,6 +19,9 @@
   border-radius: 5px;
   color: white;
 }
+.btn:active{
+  color:#6bfd0ac5;
+}
 .dark2 {
   color:#474747;
 }
@@ -116,4 +119,73 @@ main section {
 }
 .skills-image:hover{
   box-shadow: 0 6px 50px 0 #1E1E1E;
+}
+/* resume styles */
+
+.resume-container {
+  display: flex;
+}
+hr {
+  margin: 30px 10px;
+}
+.experince-sub-title , .experince-description {
+  color: #757575;
+}
+.resume-colum-title , .resume-title {
+  color: #474747;
+  font-weight: bold;
+  font-size: 30px;
+}
+.summary {
+  color: #181818;
+  font-weight: bold;
+  font-size: 35px;
+}
+.experince-sub-title{
+  font-weight: 600;
+  font-size: 20px;
+}
+.resume-btn {
+  margin-top: 50px;
+  margin-bottom: 113px; 
+}
+/* footer styles */
+.footer-color{
+  background-color:  #FFF8F3;;
+}
+.footer-container{
+  display:flex;
+}
+.footer-colum {
+  padding: 130px 230px;
+}
+.footer-icons a img:hover {
+  box-shadow: 0 6px 50px 0 #1E1E1E;;
+}
+.footer-colum-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+}
+.footer-colum-description{
+  color: #474747;
+  font-size: 16px;
+}
+.footer-colum-title2 {
+  color: #181818;
+  font-weight: bold;
+  font-size:35px;
+}
+footer input[type="text"] , footer input[type="email"] {
+  color:white;
+  padding: 10px 20px;
+  height: 52px;
+  width: 100%;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 20px;
+}
+footer textarea{
+  border-style: none;
+  margin-bottom: 20px;
 }
